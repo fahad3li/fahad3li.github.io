@@ -17,16 +17,12 @@ body {
 	color: #391d34;
 }
 
-a:link {
-	color: #7733FF;
-}
-
 a:visted {
 	color: #FF69B4;
 }
 
-a:active {
-	color: #FF69B4;
+a:link {
+	color: #7733FF;
 }
 
 h1 {
