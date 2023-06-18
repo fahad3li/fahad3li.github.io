@@ -76,7 +76,7 @@ hr {
 .grid {
 	display: grid;
 	grid-template-columns: .5fr repeat(3, 1fr) .5fr;
-	grid-template-rows: .25fr repeat(4, 1fr);
+	grid-template-rows: .25fr repeat(3, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 }
