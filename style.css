@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: #e3d9ff;
+  background: #f4cccc;
 }
 
 *, *:before, *:after {
@@ -10,7 +10,7 @@ html {
 body {
   margin: 1rem;
   max-width: 100%;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: "Courier New", monospace;
   font-weight: 400;
   line-height: 1.6;
   letter-spacing: .05em;
