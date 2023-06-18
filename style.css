@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  background: #e3d9ff;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  max-width: 100%;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: .05em;
+  color: #391d34;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+h2 {
+  border: 1px solid;  
+  border-radius: 5em;
+  font-weight: 200;
+  padding: .1em .5em;
+}
+
+menu {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background: #fff;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.grid {
+display: grid;
+grid-template-columns: .5fr repeat(3, 1fr) .5fr;
+grid-template-rows: .25fr repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.title { grid-area: 1 / 1 / 2 / 2; }
+.menu { grid-area: 1 / 2 / 2 / 6; }
+.main { grid-area: 2 / 2 / 5 / 5; }
+.footer { grid-area: 5 / 2 / 6 / 5; } 
