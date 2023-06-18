@@ -17,15 +17,15 @@ body {
 	color: #391d34;
 }
 
+a:link {
+	color: #7733FF;
+}
+
 a:hover {
 	color: #FF69B4;
 }
 
 a:visited {
-	color: #FF69B4;
-}
-
-a:link {
 	color: #7733FF;
 }
 
