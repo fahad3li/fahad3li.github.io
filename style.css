@@ -25,6 +25,10 @@ a:visted {
 	color: hotpink;
 }
 
+a:active {
+	color: hotpink;
+}
+
 h1 {
 	font-weight: 200;
 	color: #7733FF;
