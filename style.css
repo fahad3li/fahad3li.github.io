@@ -17,20 +17,25 @@ body {
 	color: #391d34;
 }
 
-a {
-	color: #9966FF;
+a:link {
+	color: #7733FF;
+}
+
+a:visted {
+	color: hotpink;
 }
 
 h1 {
 	font-weight: 200;
-	color: #9966FF;
+	color: #7733FF;
+	margin: 0px 0px -20px 0px;
 }
 
 h2 {
 	border: 1px dotted;
 	font-weight: 200;
 	padding: .1em .5em;
-	color: #9966FF;
+	color: #7733FF;
 }
 
 menu {
@@ -54,12 +59,12 @@ ul {
 
 li::before {
 	content: "•";
-	color: #9966FF;
-	margin-right: 5px;
+	color: #7733FF;
+	margin-right: 10px;
 }
 
 hr {
-	color: #9966FF;
+	color: #7733FF;
 	border-style: dotted;
 	margin: 0px 0px 30px 0px;
   }
