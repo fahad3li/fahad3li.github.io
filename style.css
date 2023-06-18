@@ -22,11 +22,11 @@ a:link {
 }
 
 a:visted {
-	color: hotpink;
+	color: #FF69B4;
 }
 
 a:active {
-	color: hotpink;
+	color: #FF69B4;
 }
 
 h1 {
