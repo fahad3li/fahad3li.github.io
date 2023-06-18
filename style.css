@@ -17,6 +17,10 @@ body {
 	color: #391d34;
 }
 
+a:hover {
+	color: #FF69B4;
+}
+
 a:visited {
 	color: #FF69B4;
 }
